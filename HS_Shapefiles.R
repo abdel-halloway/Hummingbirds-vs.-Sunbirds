@@ -9,10 +9,12 @@ library(rasterVis)
 library(maptools)
 library(rgeos)
 
-troch.dir.loc<-'/mnt/A8C40583C405554A/Users/Abdel Halloway/Documents/Research/Hawkmoths, Hummingbirds, and Sunbirds/Hummingbirds v. Sundbirds/Map Files/Trochilidae/'
-promerop.dir.loc<-'/mnt/A8C40583C405554A/Users/Abdel Halloway/Documents/Research/Hawkmoths, Hummingbirds, and Sunbirds/Hummingbirds v. Sundbirds/Map Files/Promeropidae/'
-dicae.dir.loc<-'/mnt/A8C40583C405554A/Users/Abdel Halloway/Documents/Research/Hawkmoths, Hummingbirds, and Sunbirds/Hummingbirds v. Sundbirds/Map Files/Dicaeidae/'
-nectar.dir.loc<-'/mnt/A8C40583C405554A/Users/Abdel Halloway/Documents/Research/Hawkmoths, Hummingbirds, and Sunbirds/Hummingbirds v. Sundbirds/Map Files/Nectariniidae/'
+##------Edit These-----##
+troch.dir.loc<-'/Trochilidae/Shapefile/Location/'
+promerop.dir.loc<-'/Promeropidae/Shapefile/Location/'
+dicae.dir.loc<-'/Dicaeidae/Shapefile/Location/'
+nectar.dir.loc<-'/Nectariniidae/Shapefile/Location/'
+##----------##
 
 troch.file.names<-list.files(path=troch.dir.loc,pattern='.shp')
 promerop.file.names<-list.files(path=promerop.dir.loc,pattern='.shp')
